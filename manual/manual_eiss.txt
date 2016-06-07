@@ -1,0 +1,64 @@
+Manual E-ISS
+
+1 - Pré-requisitos
+
+1.1 - PHP
+1.2 - Apache
+1.3 - Mysql
+1.4 - Sistemas Operacionais
+1.5 - Browsers
+1.6 - Bibliotecas
+
+2 - Instruções de Instalação
+2.1 - Estrutura
+2.2 - Instalações Necessárias
+2.3 - Configurações Connect
+
+1.1 - PHP
+
+Versão PHP: 5.1.6
+short_open_tag:	On
+register_globals: On 
+upload_max_filesize: 8M
+Default timezone: America/Sao_Paulo
+
+1.2 - Apache
+
+Apache/2.2.3
+Apache API Version: 20051115
+HTTP_ACCEPT_CHARSET: ISO-8859-1
+
+1.3 - Mysql
+
+Mysql versão 5.0.77
+
+1.4 - Sistemas Operacionais
+
+Linux
+Microsoft Windows XP
+
+1.5 - Browsers
+
+Recomendações:
+Firefox: v 3.63
+Chrome: v 5.0
+
+1.6 - Bibliotecas
+
+Lib GD for PHP5 bundled (2.0.28 compatible)
+
+2.1 - Estrutura
+
+eiss/site/
+
+2.2 - Instalações Necessárias
+
+Instale o PHP e APACHE de acordo com as versões exigidas acima.
+Para importação da base eiss/nfeprefeitura.sql recomendamos que utilize o PhpMyAdmin (www.phpmyadmin.net)
+
+Configurações Connect
+
+Estrutura do arquivo: eiss/include/config.php
+Necessária adaptação de Host, Usuário, Senha e Base, colocadas nas configurações do MySql(Configurações MySQL)
+
+www.portalpublico.com.br
